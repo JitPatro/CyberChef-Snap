@@ -39,7 +39,7 @@ parts:
       unzip CyberChef_${VERSION}.zip -d $SNAPCRAFT_PART_INSTALL/
       mv $SNAPCRAFT_PART_INSTALL/CyberChef_${VERSION}.html $SNAPCRAFT_PART_INSTALL/index.html
       cp ./server.py  $SNAPCRAFT_PART_INSTALL/
-      echo -e '#!/bin/sh\n\nset -e\n\npython3 $SNAP/server.py &\n\nxdg-open http://localhost:9090' > $SNAPCRAFT_PART_INSTALL/cyberchef
+      echo -e '#!/bin/bash\n\nset -e\n\nnohup python3 $SNAP/server.py &>/dev/null &\n\nxdg-open http://localhost:9090' > $SNAPCRAFT_PART_INSTALL/cyberchef
       chmod +x $SNAPCRAFT_PART_INSTALL/cyberchef
 
 apps:
