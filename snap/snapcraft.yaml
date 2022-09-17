@@ -2,7 +2,7 @@ name: cyberchef
 title: CyberChef
 base: core20
 adopt-info: cyberchef
-summary: The Cyber Swiss Army Knife
+summary: The Cyber Swiss Army Knife for encryption, encoding, compression and analysis.
 description: |
   CyberChef is a simple, intuitive web app for carrying out all manner of "cyber" operations within a web browser. These operations include simple encoding like XOR and Base64, more complex encryption like AES, DES and Blowfish, creating binary and hexdumps, compression and decompression of data, calculating hashes and checksums, IPv6 and X.509 parsing, changing character encodings, and much more.
 
