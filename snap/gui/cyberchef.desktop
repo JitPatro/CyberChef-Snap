@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Name=cyberchef
+Encoding=UTF-8
+Type=Application
+GenericName=The Cyber Swiss Army Knife for encryption, encoding, compression and analysis.
+StartupNotify=false
+Comment=CyberChef is a simple, intuitive web app for carrying out all manner of "cyber" operations within a web browser.
+Icon=${SNAP}/meta/gui/cyberchef.png
+Categories=Application
+Terminal=true
+Keywords=security;cryptography;
+Exec=cyberchef
