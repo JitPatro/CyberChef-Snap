@@ -8,6 +8,6 @@ StartupNotify=false
 Comment=CyberChef is a simple, intuitive web app for carrying out all manner of "cyber" operations within a web browser.
 Icon=${SNAP}/meta/gui/cyberchef.png
 Categories=Application
-Terminal=true
+Terminal=false
 Keywords=security;cryptography;
 Exec=cyberchef
