@@ -1,6 +1,6 @@
 name: cyberchef
 title: CyberChef
-base: core22
+base: core24
 adopt-info: cyberchef
 summary: The Cyber Swiss Army Knife for encryption, encoding, compression and analysis.
 description: |
